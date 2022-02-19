@@ -10,7 +10,7 @@ const connectDB = async ()=>{
            // UseCreateIndex:true
 
         })
-        console.log(`db connected: ${conn.connecion.host}`)
+        console.log(`db connected: ${conn.toString()}`)
 
     }catch(err){
         console.log('error in db connection ',err)
